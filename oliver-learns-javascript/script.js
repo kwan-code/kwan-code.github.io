@@ -56,7 +56,7 @@ function draw() {
 	if( y + dy < ballRadius) {
 		dy = -dy;
 	} else if (y + dy > canvas.height - ballRadius) {
-        clearInterval(interval);
+		clearInterval(interval);
 		alert("GAME OVER");
 		document.location.reload();
 	}
