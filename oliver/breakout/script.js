@@ -31,22 +31,21 @@ for (c = 0; c < brickColumnCount; c++) {
 
 
 
-document.addEventListener("keydown" , keyDownHandler);
-document.addEventListener("keyup", keyUpHandler);
 
-function drawBricks (){
-	for(c=0; c<brickColumnCount; c++) {
-		for(r=0; r<brickRowCount; r++) {
+function drawBricks() {
+	for(c = 0; c < brickColumnCount; c++) {
+		for(r = 0; r<brickRowCount; r++) {
 			if(bricks[c][r].status == 1) {
-			var brickX = (c*(brickWidth+brickPadding))+brickOffsetLeft;
-			var brickY = (r*(brickHeight+brickPadding))+brickOffsetTop;
-			bricks[c][r].x = brickX;
-			bricks[c][r].y = brickY;
-			ctx.beginPath();
-            ctx.rect(brickX, brickY, brickWidth, brickHeight);
-            ctx.fillStyle = "#0095DD"
-            ctx.fill();
-			ctx.closePath();
+				var brickX = (c*(brickWidth+brickPadding))+brickOffsetLeft;
+				var brickY = (r*(brickHeight+brickPadding))+brickOffsetTop;
+				bricks[c][r].x = brickX;
+				bricks[c][r].y = brickY;
+				ctx.beginPath();
+	            ctx.rect(brickX, brickY, brickWidth, brickHeight);
+	            ctx.fillStyle = "#0095DD"
+	            ctx.fill();
+				ctx.closePath();
+			}
 		}
 	}
 }
@@ -112,7 +111,7 @@ function draw() {
 			dy = -dy
 		} else {
 		  alert("GAME OVER");
-	      clearInterval()
+	      clearInterval(MasterVar)
 		  document.location.reload();	
 		}
 	}
@@ -134,5 +133,7 @@ function draw() {
 
 }
 
+document.addEventListener("keydown" , keyDownHandler);
+document.addEventListener("keyup", keyUpHandler);
 
-setInterval(draw, 10)};
+var MasterVar = setInterval(draw, 10);
