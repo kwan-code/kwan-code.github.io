@@ -1,0 +1,22 @@
+body {
+	background-color: #144bff;
+	text-align: center;
+}
+
+p {
+	font-family: monospace;
+	color: lightblue;
+}
+a {
+	font-family: monospace;
+    color: lightblue;
+}
+.title_pretend {
+	font-family: monospace;
+	color: white;
+}
+.button {
+	background-color: blue;
+	border-style: outset;
+	padding: 2px 6px 2px 6px;
+}
