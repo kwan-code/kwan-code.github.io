@@ -1,6 +1,7 @@
 body {
 	background-color: #144bff;
 	text-align: center;
+	font-family: courier new;
 }
 
 p {
@@ -15,15 +16,22 @@ a {
 	font-family: monospace;
 	color: white;
 }
-.padding {
-	padding: 2px 6px 2px 6px;
-}
 .button {
 	background-color: blue;
 	border-style: outset double;
 	padding: 3px 8px 3px 8px;
+	border-radius: 10px;
 }
 h1 {
 	font-family: courier new;
 	color: white;
+}
+
+.selector {
+	border: 5px solid blue;
+	border-radius: 10px;
+}
+
+.size_larger {
+	font-size: 100px;
 }
