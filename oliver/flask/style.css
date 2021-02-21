@@ -15,8 +15,15 @@ a {
 	font-family: monospace;
 	color: white;
 }
+.padding {
+	padding: 2px 6px 2px 6px;
+}
 .button {
 	background-color: blue;
-	border-style: outset;
-	padding: 2px 6px 2px 6px;
+	border-style: outset double;
+	padding: 3px 8px 3px 8px;
+}
+h1 {
+	font-family: courier new;
+	color: white;
 }
