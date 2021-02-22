@@ -66,3 +66,22 @@ body {
   right: 20px;
 
 }
+
+.Top_Bar {
+	font-family: courier new;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.Home_button {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+
+
+
+
