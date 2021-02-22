@@ -54,11 +54,15 @@ body {
   font-family: courier new;
   color: white;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 10px;
+  background-color: #001ed9;
+  border-color: blue;
+  border-style: solid;
+  border-radius: 10px;
+
 
   position: absolute;
-  top: -10px;
+  top: 20px;
   right: 20px;
 
 }
