@@ -30,12 +30,35 @@ h1 {
 .selector {
 	border: 5px solid blue;
 	border-radius: 10px;
+	background-color: #001ed9; 
 }
 
 .size_larger {
 	font-size: 100px;
 }
+
 h3 {
 	font-family: courier new;
+
+}
+
+
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body {
+  background-color: #121212;
+}
+
+#clock {
+  font-family: courier new;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  position: absolute;
+  top: -10px;
+  right: 20px;
 
 }
