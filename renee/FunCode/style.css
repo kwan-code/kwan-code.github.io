@@ -1,0 +1,51 @@
+body {
+	background-color: #144bff;
+	text-align: center;
+	font-family: monospace;
+	color: white;
+}
+
+.kitten_button {
+	background-color: #144bff;
+	border-style: outset;
+	padding: 2px 6px 2px 6px;
+	font-family: ;
+	color: lightblue;
+	border-radius: 10px;
+}
+
+.penguin_button {
+	background-color: #144bff;
+	border-style: outset;
+	padding: 2px 6px 2px 6px;
+	font-family: monospace;
+    color: lightblue;
+    border-radius: 10px;
+ }
+
+#clock {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #144bff;
+  border-style: outset;
+  padding: 2px 6px 2px 6px;
+  font-family: monospace;
+  color: lightblue;
+  border-radius: 10px;
+ }
+
+ .button {
+	background-color: lightblue;
+	border-style: outset;
+	padding: 3px 8px 3px 8px;
+	border-radius: 10px;
+    border-color: lightblue;
+    color: blue;
+}
+
+.selector {
+	border: 5px solid lightblue;
+	border-radius: 10px;
+	background-color: blue; 
+}
