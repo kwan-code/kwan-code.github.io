@@ -25,3 +25,4 @@ function updateTime(k) { /* appending 0 before time elements if less than 10 */
 alert("PENGUINS ONLY")
 alert("AND I MEAN IT")
 alert("THAT MEANS YOU")
+alert("YEP. I'M NOT KIDDING(there's a link to the cat club(ongoing construction), so cats are also allowed)")
