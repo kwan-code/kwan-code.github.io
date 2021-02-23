@@ -76,9 +76,12 @@ body {
 }
 
 .Home_button {
+	background-color: #144bff;
+	border-style: solid;
+	border-color: #144bff;
 	position: absolute;
-	top: 20px;
-	left: 20px;
+	top: 40px;
+	left: 40px; 
 }
 
 
