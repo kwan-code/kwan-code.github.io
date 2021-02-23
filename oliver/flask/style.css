@@ -70,18 +70,16 @@ body {
 .Top_Bar {
 	font-family: courier new;
 	background-color: white;
-	position: absolute;
+	border-style: hidden;
+	position: fixed;
 	top: 0px;
 	right: 0px;
 }
 
 .Home_button {
-	background-color: #144bff;
-	border-style: solid;
-	border-color: #144bff;
 	position: absolute;
-	top: 40px;
-	left: 40px; 
+	top: 20px;
+	left: 20px; 
 }
 
 
