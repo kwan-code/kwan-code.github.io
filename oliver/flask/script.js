@@ -21,7 +21,3 @@ function updateTime(k) { /* appending 0 before time elements if less than 10 */
     return k;
   }
 }
-
-alert("PENGUINS ONLY")
-alert("AND I MEAN IT")
-alert("THAT MEANS YOU")
