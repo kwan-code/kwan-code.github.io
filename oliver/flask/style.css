@@ -42,6 +42,11 @@ h3 {
 
 }
 
+h2 {
+	font-family: courier new;
+    color: white;
+}
+
 
 /* Google font */
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
@@ -80,6 +85,9 @@ body {
 	position: absolute;
 	top: 20px;
 	left: 20px; 
+}
+.image_margin {
+	margin: 30px;
 }
 
 
