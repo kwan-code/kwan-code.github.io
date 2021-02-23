@@ -22,5 +22,3 @@ function updateTime(k) { /* appending 0 before time elements if less than 10 */
     return k;
   }
 }
-
-alert("CATS OR PENGUINS ONLY BEYOND THIS POINT")
