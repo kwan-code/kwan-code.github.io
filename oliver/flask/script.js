@@ -21,3 +21,30 @@ function updateTime(k) { /* appending 0 before time elements if less than 10 */
     return k;
   }
 }
+
+function login_clicked() {
+  if (document.getElementById("password").value == "PenguinsGo") {
+  console.log("password correct")
+  }
+  else {
+  console.log("password incorrect")
+  }
+  
+  console.log(document.getElementById("username").value);
+  console.log(document.getElementById("password").value);
+}
+
+function process_code() {
+  var codetoggle = document.getElementById("Code_Box");
+  var whitescreentoggle = document.getElementById("whitescreen");
+  if (document.getElementById("code").value == "14378PenguinCode"){
+    codetoggle.style.display = "none";
+    whitescreentoggle.style.display = "none";
+  }
+  else {
+    alert("Sorry, the code is incorrect");
+  }
+}
+
+
+
