@@ -6,8 +6,9 @@
     </title>
   	<link rel="stylesheet" href="style.css">
   </head>
-  <body onload = "currentTime()">
+  <body onload = "currentTime(); hidelogin()" >
     <div class = Top_Bar>
+
     </div>
 
 
@@ -67,6 +68,23 @@
         <img src = "PenguinLogo_small.jpg" width = 70px height = 46px>
       </a>
     </div>
+<button class = login onclick="showlogin()" id = Loginbutton>Login</button> 
+<div class = overlay id = "whitescreen_login">
+</div>
+<div class = Code_access id = "Login">
+  <form>
+    Username:
+    <input type = username id = Username>
+    <br>
+    <br>
+    Password:
+    <input type = password id = Password>
+    <br>
+    <br>
+    <button class = button onclick="login()">Login</button>
+  </form>
+
+
 
   </body>
 </html>

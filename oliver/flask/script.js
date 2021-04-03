@@ -1,3 +1,4 @@
+
 function currentTime() {
   var date = new Date(); /* creating object of Date class */
   var hour = date.getHours();
@@ -13,6 +14,10 @@ function currentTime() {
     var t = setTimeout(currentTime, 1000); /* setting timer */
 }
 
+ 
+
+  
+
 function updateTime(k) { /* appending 0 before time elements if less than 10 */
   if (k < 10) {
     return "0" + k;
@@ -21,6 +26,7 @@ function updateTime(k) { /* appending 0 before time elements if less than 10 */
     return k;
   }
 }
+
 
 function login_clicked() {
   if (document.getElementById("password").value == "PenguinsGo") {
@@ -44,6 +50,51 @@ function process_code() {
   else {
     alert("Sorry, the code is incorrect");
   }
+}
+
+function hidelogin() {
+  var loginpg = document.getElementById("Login")
+  var whitescreen = document.getElementById("whitescreen_login")
+  loginpg.style.display = "none";
+  whitescreen.style.display = "none";
+}
+function showlogin() {
+  var loginpg = document.getElementById("Login");
+  var whitescreen = document.getElementById("whitescreen_login");
+  loginpg.style.display = "block";
+  whitescreen.style.display = "block";
+}
+function login() {
+  var loginpg = document.getElementById("Login");
+  var whitescreen = document.getElementById("whitescreen_login");
+  var Username = document.getElementById("Username");
+  var Password = document.getElementById("Password");
+  var Loginbutton = document.getElementById("Loginbutton");
+  if (Username.value == "FlyingPenguin") {
+    if (Password.value == "Testcode_Penguin") {
+      loginpg.style.display = "none";
+      whitescreen.style.display = "none";
+      Loginbutton.style.display = "none";
+    }
+    else {
+      alert("wrong password");
+    }
+  }
+  else if (Username.value == "NyanCat") {
+    if (Password.value == "Kitty_Admin") {
+      loginpg.style.display = "none";
+      whitescreen.style.display = "none";
+      Loginbutton.style.display = "none";
+    }
+    else {
+      alert("wrong password");
+    }
+  }
+  else {
+    alert("wrong username")
+  }
+
+  
 }
 
 

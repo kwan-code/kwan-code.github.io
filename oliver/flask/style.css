@@ -138,3 +138,17 @@ input {
 	color: black;
 }
 
+
+.login {
+	background-color: blue;
+	border-style: outset;
+	padding: 3px 8px 3px 8px;
+	border-radius: 10px;
+	color: lightblue;
+	font-family: monospace;
+	position: absolute;
+	top: 29px;
+	right: 210px;
+	z-index: 103;
+}
+
