@@ -5,11 +5,13 @@
   	<title>Penguin Club Homepage
     </title>
   	<link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href = "https://art.pixilart.com/860f61205076c06.png">
   </head>
-  <body onload = "currentTime(); hidelogin()" >
+  <body onload = "currentTime()" >
+    <div>
     <div class = Top_Bar>
 
-    </div>
+    </div width = "100%" height = "100%">
 
 
   	<h1> Welcome to Penguin club!!! </h1>
@@ -65,13 +67,14 @@
     <div id="clock"></div>
     <div class = Home_button>
       <a href = "index.html">
-        <img src = "PenguinLogo_small.jpg" width = 70px height = 46px>
+        <img src = "https://art.pixilart.com/860f61205076c06.png" width = 50px height = 50px id = "Home_button" onmouseover = "homebtn_mouseover();" onmouseout = "homebtn_mouseout()">
       </a>
     </div>
 <button class = login onclick="showlogin()" id = Loginbutton>Login</button> 
 <div class = overlay id = "whitescreen_login">
 </div>
 <div class = Code_access id = "Login">
+
   <form>
     Username:
     <input type = username id = Username>
@@ -83,7 +86,8 @@
     <br>
     <button class = button onclick="login()">Login</button>
   </form>
-
+</div>
+</div>
 
 
   </body>

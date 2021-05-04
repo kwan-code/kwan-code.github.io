@@ -1,4 +1,3 @@
-
 function currentTime() {
   var date = new Date(); /* creating object of Date class */
   var hour = date.getHours();
@@ -40,6 +39,7 @@ function login_clicked() {
   console.log(document.getElementById("password").value);
 }
 
+
 function process_code() {
   var codetoggle = document.getElementById("Code_Box");
   var whitescreentoggle = document.getElementById("whitescreen");
@@ -52,39 +52,42 @@ function process_code() {
   }
 }
 
+
 function hidelogin() {
   var loginpg = document.getElementById("Login")
   var whitescreen = document.getElementById("whitescreen_login")
   loginpg.style.display = "none";
   whitescreen.style.display = "none";
 }
+
 function showlogin() {
   var loginpg = document.getElementById("Login");
   var whitescreen = document.getElementById("whitescreen_login");
   loginpg.style.display = "block";
   whitescreen.style.display = "block";
 }
+
 function login() {
   var loginpg = document.getElementById("Login");
   var whitescreen = document.getElementById("whitescreen_login");
-  var Username = document.getElementById("Username");
-  var Password = document.getElementById("Password");
-  var Loginbutton = document.getElementById("Loginbutton");
-  if (Username.value == "FlyingPenguin") {
-    if (Password.value == "Testcode_Penguin") {
+  var username = document.getElementById("Username");
+  var password = document.getElementById("Password");
+  var loginbutton = document.getElementById("Loginbutton");
+  if (username.value == "FlyingPenguin") {
+    if (password.value == "Testcode_Penguin") {
       loginpg.style.display = "none";
       whitescreen.style.display = "none";
-      Loginbutton.style.display = "none";
+      loginbutton.style.display = "none";
     }
     else {
       alert("wrong password");
     }
   }
-  else if (Username.value == "NyanCat") {
-    if (Password.value == "Kitty_Admin") {
+  else if (username.value == "NyanCat") {
+    if (password.value == "Kitty_Admin") {
       loginpg.style.display = "none";
       whitescreen.style.display = "none";
-      Loginbutton.style.display = "none";
+      loginbutton.style.display = "none";
     }
     else {
       alert("wrong password");
@@ -97,5 +100,15 @@ function login() {
   
 }
 
+function homebtn_mouseover() {
+    console.log("Mouse over button");
+    var homebtn = document.getElementById("Home_button");
+    homebtn.style.opacity = "70%";
+}
+function homebtn_mouseout() {
+    console.log("Mouse out of button");
+    var homebtn = document.getElementById("Home_button");
+    homebtn.style.opacity = "100%";
+}
 
 
