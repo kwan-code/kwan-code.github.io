@@ -81,7 +81,7 @@ function login() {
     }
     else {
       alert("wrong password");
-    }
+    } 
   }
   else if (username.value == "NyanCat") {
     if (password.value == "Kitty_Admin") {
@@ -110,5 +110,3 @@ function homebtn_mouseout() {
     var homebtn = document.getElementById("Home_button");
     homebtn.style.opacity = "100%";
 }
-
-
